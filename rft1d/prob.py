@@ -13,7 +13,7 @@ from math import pi,log,sqrt,exp
 import numpy as np
 from scipy import stats,optimize
 from scipy.special import gammaln,gamma
-import geom
+from . import geom
 
 # CONSTANTS:
 FOUR_LOG2   = 4*log(2)

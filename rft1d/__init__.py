@@ -1,7 +1,11 @@
 
 __version__  = '0.1.4'   #(2016.01.01)
 
-import data, distributions, geom, prob, random
+from . import data
+from . import distributions
+from . import geom
+from . import prob
+from . import random
 
 randn1d      = random.randn1d
 multirandn1d = random.multirandn1d
